@@ -78,11 +78,15 @@ namespace Mini_Box
         {
             if (radioButton1.Checked)
             {
-                this.Width = this.Width - 2;
                 if (this.Width <= 314)
                 {
                     timer1.Enabled = false;
                 }
+                else
+                {
+                    this.Width = this.Width - 2;
+                }
+                
             }
             else if (this.Width < 494)
             {

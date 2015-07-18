@@ -8,3 +8,13 @@ C:\Users\Medusa058\Desktop\Mini Box\Mini Box\obj\Debug\Mini Box.exe
 C:\Users\Medusa058\Desktop\Mini Box\Mini Box\obj\Debug\Mini Box.pdb
 C:\Users\Medusa058\Desktop\Mini Box\Mini Box\obj\Debug\Mini_Box.FormSoru.resources
 C:\Users\Medusa058\Desktop\Mini Box\Mini Box\obj\Debug\Mini Box.exe.licenses
+C:\Users\Medusa058\Documents\GitHub\MiniBox\Mini Box\Mini Box\bin\Debug\Mini Box.exe.config
+C:\Users\Medusa058\Documents\GitHub\MiniBox\Mini Box\Mini Box\obj\Debug\Mini Box.exe
+C:\Users\Medusa058\Documents\GitHub\MiniBox\Mini Box\Mini Box\obj\Debug\Mini Box.pdb
+C:\Users\Medusa058\Documents\GitHub\MiniBox\Mini Box\Mini Box\bin\Debug\Mini Box.exe
+C:\Users\Medusa058\Documents\GitHub\MiniBox\Mini Box\Mini Box\bin\Debug\Mini Box.pdb
+C:\Users\Medusa058\Documents\GitHub\MiniBox\Mini Box\Mini Box\obj\Debug\Mini_Box.Form1.resources
+C:\Users\Medusa058\Documents\GitHub\MiniBox\Mini Box\Mini Box\obj\Debug\Mini_Box.FormSoru.resources
+C:\Users\Medusa058\Documents\GitHub\MiniBox\Mini Box\Mini Box\obj\Debug\Mini_Box.Properties.Resources.resources
+C:\Users\Medusa058\Documents\GitHub\MiniBox\Mini Box\Mini Box\obj\Debug\Mini Box.csproj.GenerateResource.Cache
+C:\Users\Medusa058\Documents\GitHub\MiniBox\Mini Box\Mini Box\obj\Debug\Mini Box.exe.licenses
