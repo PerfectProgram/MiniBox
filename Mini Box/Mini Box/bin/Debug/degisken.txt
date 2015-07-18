@@ -1,0 +1,17 @@
+﻿1. byte
+2. sbyte
+3. short
+4. ushort
+5. int
+6. uint
+7. long
+8. ulong
+9. float
+10.double
+11.decimal
+12.char
+13.string
+14.bool
+15.object
+16.var
+17.Datetime

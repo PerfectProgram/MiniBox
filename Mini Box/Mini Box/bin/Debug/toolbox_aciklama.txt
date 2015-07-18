@@ -1,0 +1,38 @@
+﻿1. Bir iş parçacığı üzerinde işlem yürütmemizi sağlar. Çoğu arka plan işlemleri için backgroundWorker kullanırız. DoWork eventine işlemi , ProgressChanged kısmına işlem devam ederken yapılacak eylemi , RunWorkerCompleted eventi ise işlem tamamlandığında neler yapılacağı yazılır.
+2. Tıklama olayına bağlanan bir tür yardımcıdır. Tıklama yaptığımızda bir olay gerçekleşir. Bu olayı click eventinin altına yazarız.
+3. Seçili ve seçili değil olarak şekillenir. Seçili iken checked = true, seçili değil iken checked = false değerini alır. Genellikle checkedchanged eventinden yararlanarak checked özelliğini kontrol ettirir ve ona göre işlem yaptırırız.
+4. Bir tür açılabilir listedir. Items özelliğinden yararlanarak satır satır verileri ekler , daha sonra her bir satırdaki veriden yararlanmak için SelectedIndex, SelectedItem veya SelectedValue eventlerinden yararlanırız.
+5. Daha çok sağ tık menüsü olarak kullanılır. Click , checkedchanged gibi eventleri kullanarak bir sağ tık menüsü oluşturabilirsiniz.
+6. Veritabanı tablolarını görüntülememizi sağlar. DataSource özelliğine veritabanını belirttikten sonra kullanabiliriz.
+7. Gün ve tarih seçmek için kullanılır. Value değeri günü ve saati belirtir. Genellikle ValueChanged eventinden yararlanılır.
+8. Combobox gibi Items özelliğinden yararlanılır. Ancak bu açılabilir bir liste olarak değil , bir sonraki  ve bir önceki tuşlarının yardımıyla değiştirilebilen bir kontroldür. SelectedItem eventiyle istenilen olaylar gerçekleştirilebilir.
+9. Hata kontrolü olarak bilinir. Herhangi bir kontrolün yanında hata simgesi çıkartabilir ve üzerinde bir açıklama görüntüleyebilirsiniz.
+10.Kullanıcıya klasör seçtirmek için kullanılır. Klasörü seçtikten sonra klasörün yolunu SelectedPath yardımıyla alabilirsiniz.
+11.Kullanıcıya yazı tipi seçtirmek için kullanılır. Font yardımıyla yazı tipinin özellikleri çekilebilir.
+12.Kontrolleri gruplamak amacıyla kullanılır.
+13.Bir resim listesi yapmak amacıyla kullanılır. 0 ' dan başlayarak her bir resme index değeri atar. Böylece istediğimiz resmi index numarasıyla kullanabiliriz.
+14.Program arayüzünde bir yazı göstermek için kullanılan kontroldür.
+15.Tıklandığında bir link açan köprü diyebileceğimiz labelin linkli halidir.
+16.Listbox , combobox kontrolünün açılmış halidir. Kullanımı combobox ile aynıdır.
+17.Gruplama yapılabilen liste denilebilir. Çeşitli gruplar oluşturarak içine column(satır) ve item eklenebilir.
+18.Çeşitli maskelemeler yapılabilir. Örneğin telefon numarası (XXX)XXXXXXX şeklindedir. Bu örneği maskedtextbox ile yapabiliriz.
+19.Pencerenin üst tarafına açılır menü eklemek istediğimizde kullanırız.
+20.Datetimepicker kontrolünün açılmış yani ajanda halidir.
+21.Tray dediğimiz görev çubuğunun sağ alt köşesinde bulunması için ekleriz.ShowBalloonTip özelliği ile bir bildirim gösterebiliriz veya ikona tıklandığında programın gösterilip gizlenmesini sağlayabiliriz.
+22.Numaralandırılmış artır azalt kontrolüdür. ValueChanged eventinden yararlanılır.
+23.Kullanıcıya dosya seçtirmek için kullanılır. Dosyanın yolunu FileName yardımıyla alabiliriz.
+24.Panel groupboxın aksine arka plan rengi kullanabildiğimiz bir kontroldür. Groupbox ile aynı amaca sahiptir.
+25.Program arayüzünde bir resim göstermek için kullanılan kontroldür.
+26.Çıktı almak için kullanılır.
+27.Bir işlemin ilerleme durumunu göstermek için progressBar kontrolünü kullanırız.
+28.Tek seçim yaptırmak amacıyla kullanılır.Örneğin cinsiyet ya erkektir ya kadın. İki tane radiobutton ekleyerek kullanıcıdan birini seçmesini isteyebiliriz. Yine checked eventinden yararlanılırız.
+29.Zengin metin içerebilen textbox denilebilir. Text özelliğinden yararlanarak içerisine string değerler atabiliriz.
+30.Kullanıcıya bir kayıt işlemi yaptırmak amacıyla kullanılır. Filename özelliğinden yararlanarak dosya yolunu ve ismini alabiliriz.
+31.Durum çubuğu olarak pencerenin alt kenarına eklenir. Bağlantı durumu gibi bazı durumları kullanıcıya aktarmak amacıyla kullanırız. Label , progressBar , dropDownButton ve SplitButton eklenebilir.
+32.Sekme kontrolüdür. Çeşitli sekmelerden yararlanmak istediğimizde kullanabiliriz. TabStopChanged eventinden yararlanabiliriz.
+33.Kullanıcıdan klavyeden girmesini istediğimiz çeşitli değerler için textbox kullanılırız. TextChanged eventi her giriş yapıldığında tetiklenir.
+34.Intervali milisaniye cinsinden ayarladıktan sonra o milisaniyeler boyunca sürekli çalışan bir saat olarak düşünebiliriz. Örneğin interval = 1000 dediğimizde timer her 1 saniyede tetiklenir. Tek bir olayı olan tick eventinden yararlanırız. Enabled=true veya Start() yardımıyla başlatabilir , Enabled=false veya Stop() yardımıyla durdurabiliriz.
+35.Kontrol üzerinde bir açıklama belirtmek amacıyla kullanılır. Örneğin bir buton üzerine gelindiğinde bir açıklama metni beliren bir uygulama yapabiliriz.
+36.Kaydırılabilir çubuk kontrolüdür. Kaydırıldıkça değeri değişir. Sesi ayarlamak için kaydırılabilir çubuk kullanırız. Valuechanged eventinden yararlanarak o anki değeri alabiliriz.
+37.Bir ağaç listesi yapmak için bu kontrolü kullanırız. Aile ağacı veya bir klasör içindeki dosyaları içeren ağaç buna örnektir.
+38.İnternette gezinmek ve internet üzerindeki kontrollere erişimi kolaylaştırmak için webbrowser kullanabiliriz.

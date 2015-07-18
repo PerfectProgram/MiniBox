@@ -1,0 +1,38 @@
+﻿1. BackgroundWorker
+2. Button
+3. CheckBox
+4. ComboBox
+5. ContextMenuStrip
+6. DataGridView
+7. DateTimePicker
+8. DomainUpDown
+9. ErrorProvider
+10.FolderBrowserDialog
+11.FontDialog
+12.GroupBox
+13.ImageList
+14.Label
+15.LinkLabel
+16.ListBox
+17.ListView
+18.MaskedTextBox
+19.MenuStrip
+20.MonthCalendar
+21.NotifyIcon
+22.NumericUpDown
+23.OpenFileDialog
+24.Panel
+25.PictureBox
+26.PrintDialog
+27.ProgressBar
+28.RadioButton
+29.RichTextBox
+30.SaveFileDialog
+31.StatusStrip
+32.TabControl
+33.TextBox
+34.Timer
+35.ToolTip
+36.TrackBar
+37.TreeView
+38.WebBrowser

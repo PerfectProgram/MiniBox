@@ -1,0 +1,17 @@
+﻿1. Bellekte 1 baytlık yer tutan 0 ve 255 arası tam sayıları hafızasında saklayabilen veri türü. İp adresleri bu yüzden en fazla 255 değerini alabilirler. Tanımlama şekli : byte (tanımlama adı) = 5;
+2. Bellekte 1 baytlık yer tutan -128 ve 127 arası tam sayıları hafızasında saklayabilen veri türü. Tanımlama şekli : sbyte (tanımlama adı) = 127;
+3. Bellekte 2 baytlık yer tutan -32768 ve 32767 arası tam sayıları hafızasında saklayabilen veri türü. Tanımlama şekli : short (tanımlama adı) = -15;
+4. Bellekte 2 baytlık yer tutan 0 ve 65535 arası tam sayıları hafızasında saklayabilen veri türü. Tanımlama şekli : ushort (tanımlama adı) = 0;
+5. Bellekte 4 baytlık yer tutan -2147483648 ve 2147483647 arası tam sayıları hafızasında saklayabilen veri türü. Tanımlama şekli : int (tanımlama adı) = -25123426;
+6. Bellekte 4 baytlık yer tutan 0 ve 4294967295 arası tam sayıları hafızasında saklayabilen veri türü. Tanımlama şekli : uint (tanımlama adı) = 4687946;
+7. Bellekte 8 baytlık yer tutan -9223372036854775808 ve 9223372036854775807 arası tam sayıları hafızasında saklayabilen veri türü. Tanımlama şekli : long (tanımlama adı) = -522226467899546;
+8. Bellekte 8 baytlık yer tutan 0 ve 18446744073709551615 arası tam sayıları hafızasında saklayabilen veri türü. Tanımlama şekli : ulong (tanımlama adı) = 5789768564354465;
+9. Bellekte 4 baytlık yer tutan ±1.5*10^-45 ve ±3.4*10^38 arası reel sayıları hafızasında saklayabilen veri türü. Tanımlama şekli : float (tanımlama adı) = 4F ya da 4f;
+10.Bellekte 8 baytlık yer tutan ±5.0*-10^-324 ve ±1.7*10^308 arası reel sayıları hafızasında saklayabilen veri türü. Tanımlama şekli : double (tanımlama adı) = 9D ya da 9d;
+11.Bellekte 16 baytlık yer tutan ±1.5*-10^-28 ve ±7.9*10^28 arası reel sayıları hafızasında saklayabilen veri türü. Tanımlama şekli : decimal (tanımlama adı) = 8M ya da 8m;
+12.Bellekte 2 baytlık yer tutan , hafızasında sadece tek bir karakteri saklayan veri türü. Tanımlama şekli : char (tanımlama adı) = 'c';
+13.Bellekte sınırsız yer tutabilen , hafızasında metin saklayabilen veri türü. Tanımlama şekli : string (tanımlama adı) = "Örnek metin";
+14.Koşul belirtir. True ya da false değerlerini alır. Tanımlama şekli : bool (tanımlama adı) = false;
+15.Her türden veriyi alabilir. Tanımlama şekli object (tanımlama adı);
+16.Tür belirtmeden içerisinde veri tutabilir. Tanımlama şekli : var (tanımlama adı) = "Örnek" ya da var (tanımlama adı) = 55;
+17.İçinde zaman verisi tutar. Bellekte 8 baytlık yer kaplar. Tanımlama şekli : Datetime (tanımlama adı) = Datetime.Now; 
